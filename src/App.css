@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+
+body{
+  background-color: #674baf;
+  background-image: url("/src/images/bg-desktop.svg");
+  
+}
+
+.App {
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (max-width: 450px) {
+  body{
+    background-image: url("/src/images/bg-mobile.svg");
+    background-repeat: no-repeat;
+  } 
+}
+@media (max-width: 850px) {
+  body{
+    background-image: url("/src/images/bg-desktop.svg");
+    background-repeat: no-repeat;
+  } 
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
